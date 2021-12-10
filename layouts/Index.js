@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       fontWeight="medium"
     >
       <Navbar />
-      <Container maxW="container.lg" py="150px">
+      <Container maxW="container.lg" py="100px">
         {children}
       </Container>
       <Footer />
